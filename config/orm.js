@@ -12,7 +12,7 @@ function printQuestionMarks(num) {
 }
 
 //Helper Function for SQL Sytanx key/value pairs
-function objColVals(ob) {
+function objToSql(ob) {
     var arr = [];
 
     for (var key in ob) {
