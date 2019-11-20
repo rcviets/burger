@@ -4,7 +4,7 @@ var express = require('express');
 var router = express.Router();
 
 //Import Model
-var burger = require('.../models/cat.js');
+var burger = require('../models/burger.js');
 
 //Create Routes
 router.get('/', function(req, res) {
