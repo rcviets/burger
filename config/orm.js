@@ -1,5 +1,5 @@
 //Import MySQL connection
-var connection = require('../config/connection.js');
+var connection = require('./connection');
 
 //Helper Function for SQL Syntax ??
 function printQuestionMarks(num) {

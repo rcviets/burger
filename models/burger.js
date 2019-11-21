@@ -21,4 +21,4 @@ var burgers = {
 };
 
 //Export Database Functions
-module.exports = burger;
+module.exports = burgers;
