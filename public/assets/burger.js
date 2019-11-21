@@ -16,3 +16,22 @@ $('.devourBurger').on('click', function() {
         }
     );
 });
+
+//Create Button Click
+$('.create-form').on('submit', function(event) {
+    event.preventDefault();
+
+    let newBurger = {
+        name: $('#bg').val().trim()
+    };
+
+    //POST Request
+    $.ajax('/api/burgers', {
+        type: 'POST',
+        data: newBurger
+    }).then(
+        function() {
+            location.reload();
+        }
+    );
+});
