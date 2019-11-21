@@ -1,5 +1,5 @@
 //Devour Button Click
-$('.devourBurger').on('click', function() {
+$(document).on('click', '.devourBurger', function() {
     let id = $(this).data('burgerid');
 
     let newState = {
