@@ -18,7 +18,7 @@ $(document).on('click', '.devourBurger', function() {
 });
 
 //Create Button Click
-$('.create-form').on('submit', function(event) {
+$(document).on('submit', '.create-form', function(event) {
     event.preventDefault();
 
     let newBurger = {
